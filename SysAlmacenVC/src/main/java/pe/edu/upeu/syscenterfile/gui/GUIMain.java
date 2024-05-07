@@ -19,10 +19,13 @@ import javax.swing.JTabbedPane;
 import javax.swing.event.MenuEvent;
 import javax.swing.event.MenuListener;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.stereotype.Component;
 import pe.edu.upeu.syscenterfile.modelo.MenuMenuItenTO;
 import pe.edu.upeu.syscenterfile.servicio.MenuMenuItemDao;
 import pe.edu.upeu.syscenterfile.servicio.MenuMenuItemDaoI;
 import pe.edu.upeu.syscenterfile.util.UtilsX;
+
+@Component
 
 public class GUIMain extends JFrame {
 
